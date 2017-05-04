@@ -4,14 +4,14 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class game1button : MonoBehaviour {
+public class gamebutton : MonoBehaviour {
 
-    public Button gamebutton;
+    public Button _gamebutton;
 
     // Use this for initialization
     void Start () {
         Screen.fullScreen = false;
-        Button nextscene = gamebutton.GetComponent<Button>();
+        Button nextscene = _gamebutton.GetComponent<Button>();
         nextscene.onClick.AddListener(TaskonClick);
     }
 	
