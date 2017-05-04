@@ -89,9 +89,9 @@
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
 -define:UNITY_HAS_GOOGLEVR
-'Assets/btnCours.cs'
 'Assets/script/OnDepartementClick.cs'
 'Assets/script/OnItemClick.cs'
+'Assets/script/btnCours.cs'
 'Assets/script/btnReturn.cs'
 'Assets/script/game1button.cs'
 'Assets/script/game1lvldebutant.cs'
