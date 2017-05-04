@@ -46,12 +46,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\btnCours.cs" />
      <Compile Include="Assets\script\OnDepartementClick.cs" />
      <Compile Include="Assets\script\OnItemClick.cs" />
+     <Compile Include="Assets\script\btnCours.cs" />
      <Compile Include="Assets\script\btnReturn.cs" />
      <Compile Include="Assets\script\game1button.cs" />
      <Compile Include="Assets\script\game1lvldebutant.cs" />
+     <Compile Include="Assets\script\variables.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/kmvelia/Desktop/CC_android/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
