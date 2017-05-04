@@ -48,15 +48,10 @@
   <ItemGroup>
      <Compile Include="Assets\script\OnDepartementClick.cs" />
      <Compile Include="Assets\script\OnItemClick.cs" />
-     <Compile Include="Assets\script\btnCours.cs" />
      <Compile Include="Assets\script\btnReturn.cs" />
      <Compile Include="Assets\script\footer.cs" />
-     <Compile Include="Assets\script\game1button.cs" />
-     <Compile Include="Assets\script\game1lvldebutant.cs" />
-     <Compile Include="Assets\script\linkToGame\goToGame1.cs" />
-     <Compile Include="Assets\script\linkToGame\goToGame2.cs" />
-     <Compile Include="Assets\script\linkToGame\goToGame3.cs" />
-     <Compile Include="Assets\script\linkToGame\goToGame4.cs" />
+     <Compile Include="Assets\script\gamechooselvl.cs" />
+     <Compile Include="Assets\script\switch_scene.cs" />
      <Compile Include="Assets\script\test.cs" />
      <Compile Include="Assets\script\variables.cs" />
  <Reference Include="Facebook.Unity.Settings">
