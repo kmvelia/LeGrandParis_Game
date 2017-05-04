@@ -19,8 +19,9 @@ public class gamechooselvl : MonoBehaviour {
 
     public void TaskonClick()
     {
-        Debug.Log(this.transform.name);
         if (string.Compare(this.transform.name, "Button_debutant") == 0)
             SceneManager.LoadScene("scene_game1debutant");
+        else if (string.Compare(this.transform.name, "Button_game2") == 0)
+            SceneManager.LoadScene("scene_game2");
     }
 }
