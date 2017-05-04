@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_mysql.cs" />
      <Compile Include="Assets\script\OnDepartementClick.cs" />
      <Compile Include="Assets\script\OnItemClick.cs" />
      <Compile Include="Assets\script\btnReturn.cs" />
