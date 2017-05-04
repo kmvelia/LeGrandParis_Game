@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class variables : MonoBehaviour {
 
-    List<string> scene_history;
+    public static List<string> scene_history;
 
     // Use this for initialization
     void Start () {

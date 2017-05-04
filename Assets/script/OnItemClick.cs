@@ -7,6 +7,9 @@ using UnityEngine;
 public class OnItemClick : MonoBehaviour {
 
     public Sprite _idfImageClicked;
+    public Text _textregion;
+    public GameObject _footer;
+
     bool _begin_timer;
     float _timer;
     SpriteRenderer _thisSprite;
@@ -36,6 +39,8 @@ public class OnItemClick : MonoBehaviour {
         {
             _timer = Time.time;
             _begin_timer = true;
+            _footer.SetActive(true);
+            _textregion.text = "Ile-de-France";
         }
     }
 }
