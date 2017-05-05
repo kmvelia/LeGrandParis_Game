@@ -23,15 +23,16 @@ public class MuteSound : MonoBehaviour
 	}
 
 	void muteSound() {
+		AudioListener.pause = false;
 		counter++;
 		if (counter % 2 == 0)
 		{
 			btnSound.image.overrideSprite = spriteBtnOn;
-			AudioListener.pause = true;
-		}
+			AudioListener.pause = false;
+		} 
 		else {
 			btnSound.image.overrideSprite = spriteBtnOff;
-			AudioListener.pause = false;
+			AudioListener.pause = true;
 		}
 	}
 }
