@@ -81,19 +81,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_mysql.cs" />
     <Compile Include="Assets\script\OnDepartementClick.cs" />
     <Compile Include="Assets\script\OnItemClick.cs" />
-    <Compile Include="Assets\script\btnCours.cs" />
+    <Compile Include="Assets\script\_mysql.cs" />
     <Compile Include="Assets\script\btnReturn.cs" />
     <Compile Include="Assets\script\footer.cs" />
-    <Compile Include="Assets\script\gamebutton.cs" />
     <Compile Include="Assets\script\gamechooselvl.cs" />
-    <Compile Include="Assets\script\linkToGame\goToGame1.cs" />
-    <Compile Include="Assets\script\linkToGame\goToGame2.cs" />
-    <Compile Include="Assets\script\linkToGame\goToGame3.cs" />
-    <Compile Include="Assets\script\linkToGame\goToGame4.cs" />
+    <Compile Include="Assets\script\switch_scene.cs" />
     <Compile Include="Assets\script\test.cs" />
+    <Compile Include="Assets\script\validate_enonce_button.cs" />
     <Compile Include="Assets\script\variables.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

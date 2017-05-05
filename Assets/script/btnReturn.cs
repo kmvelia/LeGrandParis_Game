@@ -4,12 +4,11 @@ using UnityEngine.UI;
 
 public class btnReturn : MonoBehaviour {
 	
-	public Button retrurnButton;
+	public Button returnButton;
 
 	// Use this for initialization
 	void Start () {
-        Debug.Log("TEST");
-		Button btnReturn = retrurnButton.GetComponent<Button>();
+		Button btnReturn = returnButton.GetComponent<Button>();
 		btnReturn.onClick.AddListener(GoToPreviousScene);
 	}
 	
@@ -20,12 +19,5 @@ public class btnReturn : MonoBehaviour {
 
 	void GoToPreviousScene () {
         //SceneManager.LoadScene("scene_accueil");
-        variables.scene_history.ForEach(test);
-        Debug.Log("TEST");
-    }
-
-    void test(string s)
-    {
-        Debug.Log(s);
     }
 }

@@ -4,19 +4,17 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 using System;
 
-public class test : MonoBehaviour {
-
+public class test : MonoBehaviour
+{
     // Use this for initialization
     void Start()
     {
-        
+
     }
     // Update is called once per frame
     void Update()
     {
-
     }
-
     void OnMouseDown()
     {
         try
