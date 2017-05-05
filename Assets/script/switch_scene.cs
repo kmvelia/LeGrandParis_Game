@@ -29,10 +29,7 @@ public class switch_scene : MonoBehaviour {
 			"scene_game1debutant", // 3
 			"scene_game1debutant_region", // 4
 			"Game1_cours", // 5
-			"Game2_cours", // 6
-			"Game3_cours", // 7
-			"Game4_cours", // 8
-			"Game5_cours" }; // 9
+			"Game2_cours"}; // 6
 		SceneManager.LoadScene(sceneName[levelIndex]);
 	}
 }
