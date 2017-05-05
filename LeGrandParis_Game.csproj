@@ -81,6 +81,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\QuitGame.cs" />
+    <Compile Include="Assets\script\MuteSound.cs" />
     <Compile Include="Assets\script\OnDepartementClick.cs" />
     <Compile Include="Assets\script\OnItemClick.cs" />
     <Compile Include="Assets\script\_mysql.cs" />

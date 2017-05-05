@@ -24,35 +24,9 @@ public class validate_enonce_button : MonoBehaviour {
 
     void OnClickButtonValidate()
     {
-        Debug.Log(_choix_reponse.value);
-        //StartCoroutine(check_answer_user());
-    }
-
-    IEnumerator check_answer_user()
-    {
-        
-        // Create a form object for sending high score data to the server
-        WWWForm form = new WWWForm();
-
-        // Assuming the perl script manages high scores for different games
-        form.AddField("action", "get_response");
-        form.AddField("id_enonce", _mysql.question);
-        //form.AddField("user_answer", _reponse_user_text.text);
-
-        // Create a download object
-        WWW download = new WWW(url, form);
-
-        // Wait until the download is done
-        yield return download;
-
-        if (!string.IsNullOrEmpty(download.error))
-        {
-            print("Error downloading: " + download.error);
-        }
+        if (string.Compare(_choix_reponse.GetComponentInChildren<Text>().text, _mysql.answer[1]) == 0)
+            _retour_sur_reponse_user_text.text = "Bonne reponse !";
         else
-        {
-            _retour_sur_reponse_user_text.text = download.text;
-        }
-        Debug.Log(_choix_reponse.value);
+            _retour_sur_reponse_user_text.text = "t nul comme lavan lol !";
     }
 }
